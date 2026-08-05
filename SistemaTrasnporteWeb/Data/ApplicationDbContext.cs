@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using SistemaTransporteWeb.Models;
 
 namespace SistemaTrasnporteWeb.Data
 {
@@ -9,5 +10,7 @@ namespace SistemaTrasnporteWeb.Data
             : base(options)
         {
         }
+
+        public DbSet<Chofer> Choferes { get; set; }
     }
 }
