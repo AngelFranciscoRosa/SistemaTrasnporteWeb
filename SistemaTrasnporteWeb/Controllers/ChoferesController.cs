@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SistemaTransporteWeb.Models;
 using SistemaTrasnporteWeb.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SistemaTrasnporteWeb.Controllers
 {
+    [Authorize]
     public class ChoferesController : Controller
     {
         private readonly ApplicationDbContext _context;

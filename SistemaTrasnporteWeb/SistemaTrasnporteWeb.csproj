@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.29" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.29" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.29" />
@@ -17,6 +18,9 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.23" />
+    <PackageReference Include="Selenium.Support" Version="4.46.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.46.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="151.0.7922.7600" />
   </ItemGroup>
 
 </Project>

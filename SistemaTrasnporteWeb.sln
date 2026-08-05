@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.37111.16 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaTrasnporteWeb", "SistemaTrasnporteWeb\SistemaTrasnporteWeb.csproj", "{C67F790E-9261-4EE8-86B4-781CBF4F7D54}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaTransporteWeb.Tests", "SistemaTransporteWeb.Tests\SistemaTransporteWeb.Tests.csproj", "{C11C6A1A-7C4D-424E-B825-6978BE3D22EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C67F790E-9261-4EE8-86B4-781CBF4F7D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C67F790E-9261-4EE8-86B4-781CBF4F7D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C67F790E-9261-4EE8-86B4-781CBF4F7D54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C11C6A1A-7C4D-424E-B825-6978BE3D22EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C11C6A1A-7C4D-424E-B825-6978BE3D22EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C11C6A1A-7C4D-424E-B825-6978BE3D22EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C11C6A1A-7C4D-424E-B825-6978BE3D22EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
