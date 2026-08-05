@@ -72,5 +72,16 @@ public class ChoferTests : TestBase
         Assert.DoesNotContain("Carlos", Driver.PageSource);
     }
 
+    [Fact]
+    public void CrearChoferConCamposVacios()
+    {
+        Login();
 
+        Driver.Navigate().GoToUrl($"{BaseUrl}/Choferes/Create");
+
+        Driver.FindElement(By.CssSelector("input[type='submit']"))
+              .Click();
+
+        Assert.Contains("required", Driver.PageSource, StringComparison.OrdinalIgnoreCase);
+    }
 }
